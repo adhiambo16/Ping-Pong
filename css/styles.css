@@ -1,0 +1,13 @@
+header{
+  font-family: sans-serif;
+  text-align: center;
+}
+.container-fluid{
+background-color: #f7bf8f;
+height: 200px;
+  text-align: center;
+  font-size: 400%;
+    padding-left:15px;
+  padding-right:15px;
+margin: 0px;
+}
