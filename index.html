@@ -14,7 +14,7 @@
     <header>Ping-Pong</header>
   </div>
   </div>
-    <div class="container">
+    <div class="container-fluid-1">
        <div class="row bodyBg">
          <div class="col-md-3 side">
           <h2><strong> About Ping Pong</strong></h2>
@@ -26,6 +26,27 @@
            <p>java</p>
         </div>
       </div>
+      </div>
+      <div class="col-md-9 main">
+         <h4>Let's play!</h4>
+         <h4>Rules:</h4>
+         <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+         <ol>
+         <li>Numbers divisible by 3 become "ping"</li>
+         <li>Numbers divisible by 5 become "pong"</li>
+         <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+         </ol>
+         <form id="pingPong">
+
+          <label id inquire="pingpong">Enter your number here:</label>
+          <input id="input" type="text">
+        <button type="submit">ping pong</button>
+      </form>
+      <ul class="output">
+
+      </ul>
+
+      <div id="result">
       </div>
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
