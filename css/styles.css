@@ -1,10 +1,12 @@
 header{
   font-family: sans-serif;
   text-align: center;
+  font-size: 400%;
+
 }
 .container-fluid{
 background-color: #f7bf8f;
-height: 200px;
+height: 300px;
   text-align: center;
   font-size: 400%;
     padding-left:15px;
@@ -19,7 +21,23 @@ padding-bottom: 25%;
   margin-top: 2%;
   margin-left:0%;
 }
+.side h3{
+  color:#f7bf8f;
+}
+.side p{
+  color: white;
+}
+.main h4{
+  font-size: 40px;
+  font-weight: bolder;
+}
+.main{
+  margin-top: 10%;
+  padding-left: 5%;
+  font-size: 20px;
+}
 
 
 .bodyBg{
   background-color: #F0F0F0;
+}
